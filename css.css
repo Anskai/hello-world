@@ -1,26 +1,4 @@
-*{
-	box-sizing: border-box;
-
-}
-.row::after{
-	content: '';
-	clear: both;
-	display: table;
-
-}
-div:hover{
-	background: green;
-	border: 1px solid black;
-
-
-}
-[class="col-"]{
-	float: left;
-	height: 300px;
-}
-p{
-	color: red;
-}
 .container{
-	width: 100%;
+
+	grid-template-columns: repeat(10, 1fr);
 }
